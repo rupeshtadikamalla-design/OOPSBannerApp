@@ -1,16 +1,16 @@
 public class OOPSBanner {
     public static void main(String[] args) {
 
-        // Array storing OOPS banner
+        // Array initialization with banner text
         String[] banner = {
-            "  OOO   OOO   PPPP   SSSS ",
-            " O   O O   O  P   P  S    ",
-            " O   O O   O  PPPP    SSS ",
-            " O   O O   O  P          S",
-            "  OOO   OOO   P      SSSS "
+            "  OOOOO    OOOOO   PPPPPP    SSSSS  ",
+            " O     O  O     O  P     P  S       ",
+            " O     O  O     O  P     P   SSSSS   ",
+            " O     O  O     O  PPPPPP        S   ",
+            "  OOOOO    OOOOO   P        SSSSS    "
         };
 
-        // Loop to print banner
+        // Printing the banner using loop
         for (int i = 0; i < banner.length; i++) {
             System.out.println(banner[i]);
         }
